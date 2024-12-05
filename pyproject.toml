@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pythonpoetryproject"
+version = "0.1.0"
+description = "This is the first python project"
+authors = ["Bruk M"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+click = "^8.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.10.0"
+flake8 = "^7.1.1"
+pre-commit = "^4.0.1"
+tox = "^4.23.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

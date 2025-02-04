@@ -1,1 +1,7 @@
+/FastAPI/.venv
 /FastAPI/BookManagement/.env
+/FastAPI/StudManagement/.env
+/FastAPI/StudentManagement/__pycache__
+/FastAPI/StudentManagement/.venv
+/FastAPI/StudentManagement/.env
+/OAs
